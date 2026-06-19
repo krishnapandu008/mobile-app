@@ -10,9 +10,9 @@
     },
     "preview": {
       "distribution": "internal",
+      "clean": true,
       "android": {
         "buildType": "apk",
-        "clean": true,
         "env": {
           "EXPO_USE_COMMUNITY_AUTOLINKING": "1"
         }
