@@ -9,15 +9,14 @@
       "distribution": "internal"
     },
     "preview": {
-  "distribution": "internal",
-  "android": {
-    "buildType": "apk",
-    "env": {
-      "EXPO_USE_COMMUNITY_AUTOLINKING": "1"
-    }
-  },
-  "prebuild": "npx expo prebuild --clean"
-},
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "env": {
+          "EXPO_USE_COMMUNITY_AUTOLINKING": "1"
+        }
+      }
+    },
     "production": {
       "autoIncrement": true
     }
