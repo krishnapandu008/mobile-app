@@ -17,8 +17,7 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.mobileapp",
-      "packageName": "com.anonymous.mobileapp"
+      "package": "com.anonymous.mobileapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
