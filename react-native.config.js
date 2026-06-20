@@ -1,7 +1,1 @@
-module.exports = {
-  project: {
-    android: {
-      packageName: 'com.anonymous.mobileapp'
-    }
-  }
-};
+module.exports = { project: { android: { packageName: 'com.anonymous.mobileapp' } } }; 
