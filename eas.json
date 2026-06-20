@@ -10,7 +10,6 @@
     },
     "preview": {
   "distribution": "internal",
-  "clean": true,
   "android": {
     "buildType": "apk",
     "env": {
