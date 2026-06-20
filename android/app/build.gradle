@@ -89,14 +89,12 @@ android {
 
     namespace 'com.anonymous.mobileapp'
     defaultConfig {
-        applicationId 'com.anonymous.mobileapp'
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0.0"
-
-        buildConfigField "String", "REACT_NATIVE_RELEASE_LEVEL", "\"${findProperty('reactNativeReleaseLevel') ?: 'stable'}\""
-    }
+    applicationId "com.anonymous.mobileapp"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.targetSdkVersion
+    versionCode 1
+    versionName "1.0"
+}
     signingConfigs {
         debug {
             storeFile file('debug.keystore')
